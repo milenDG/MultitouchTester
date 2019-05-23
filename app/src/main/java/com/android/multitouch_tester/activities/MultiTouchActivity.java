@@ -35,7 +35,7 @@ public class MultiTouchActivity extends Activity {
         // If the last instance is saved then restore it.
         // Else set the max to 0 and the total touches from the db on a different thread.
         if (savedInstanceState != null) {
-            this.maximumTouches.append(String.valueOf(savedInstanceState.getInt(CURRENT_MAX_KEY)));
+            this.maximumTouches.setText(savedInstanceState.getString(CURRENT_MAX_KEY));
             this.totalCount.setText(savedInstanceState.getString(CURRENT_TOTAL_TOUCHES));
         } else {
             this.maximumTouches.setText("0");
