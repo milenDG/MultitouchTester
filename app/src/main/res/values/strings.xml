@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Multi-touch Tester</string>
+    <string name="initialTextView">This application\'s aim is to test the highest amount of touches your device can register simultaneously. To start the test simply press start and touch your screen on as many places as possible at one time.</string>
+    <string name="helloInitialTextView">Hello</string>
+    <string name="startButton">Start Multi-Touch Test</string>
+    <string name="currentMaximum">Current Maximum =\u0020</string>
+    <string name="totalTouches">Touches Count =\u0020</string>
+    <string name="totalTouchesCount">0</string>
+    <string name="drawPreviousTouches">Draw All Previous Touches While Testing</string>
+    <string name="totalMaximum">Total Achieved Maximum =\u0020</string>
+</resources>
